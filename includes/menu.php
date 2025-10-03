@@ -16,6 +16,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="post_formulario.php">Incluir Post</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="post_formulario.php">Excluir</a>
+            </li>
             <?php if (isset($_SESSION['login']) 
                 && ($_SESSION['login']['usuario']['adm'] === 1)) : ?>
             <li class="nav-item">
